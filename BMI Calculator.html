@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-style: italic;
+        background-image: url(istockphoto-1360927961-1024x1024.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+      .main {
+        width: 450px;
+        height: 480px;
+        /* padding: 10px 0px 80px 20px; */
+        color: black;
+        border-radius: 20px 60px;
+        background: white;
+        box-shadow: 0 8px 25px 0 #16213e;
+        font-size: 20px;
+        text-align: center;
+        background-color:rgb(78, 147, 170);
+      }
+      .main1 {
+        background-color:rgb(205, 50, 184);
+        color: black;
+        width: 300px;
+        height: 160px;
+        
+        border-radius: 10px;
+    
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        box-shadow: 5px 5px cadetblue;
+        border-radius: 10px 40px;
+      }
+      .height {
+        background-color:whitesmoke;
+        width: 120px;
+        height: 70px;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: medium;
+       
+       
+        
+      }
+      .weight {
+        background-color:whitesmoke;
+        width: 120px;
+        height: 70px;
+        display: inline-block;
+        margin: 30px 10px 20px 10px;
+        font-size: medium;
+       
+        
+      }
+      input{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
+         width: 55px;
+         height: 20px;
+        
+      }
+      h2{
+        margin-top: 30px;
+        text-shadow: 3px 3px beige;
+      }
+      h3{
+        
+        background-color:rgb(116, 84, 112);
+        width: 280px;
+        margin-top: 20px ;
+        margin-left: 90px;
+        height: 40px;
+        border-radius: 10px 40px;
+        box-shadow:  5px 5px 5px 5px lightblue;
+
+       
+      }
+      label{
+       margin-top: 50px;
+      }
+      #btn{
+        width: 280px;
+        height: 30px;
+        background-color: brown;
+        margin-top: 20px;
+        font-size: large;
+        color:white;
+        border-radius: 10px 10px;
+        box-shadow: 5px 5px  black;
+      }
+      #btn1{
+        width: 280px;
+        height: 30px;
+        background-color: rgb(50, 42, 165);
+        margin-top: 20px;
+        color: white;
+        font-size: large;
+        border-radius: 10px 10px;
+        box-shadow: 5px 5px  black;
+      }
+      button:hover{
+    background-color: rgb(83,83,82);
+}
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <div class="main">
+          <h2>BMI Calculator</h2>
+          <h3>Your BMI:00</h3>
+
+          <div class="main1">
+            <div class="height">
+              <label   id="lab1" for="" >HEIGHT<br />  (cm)</label>
+                
+               
+              
+
+              <input type="button" value="" />
+            </div>
+            <div class="weight">
+              <label  id="lab"  for=""> WEIGHT <br />(kg)</label>
+              <input type="button" value="" />
+            </div>
+          </div>
+          <div>
+            <button id="btn" type="button">SUBMIT</button> <br>
+
+            <button id="btn1"   type="button">RESET</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
